@@ -1,0 +1,24 @@
+{
+  "name": "sammaye/monolog-laravel-swiftmailer-handler",
+  "description": "A Swiftmailer handler for Monolog for use with Laravel",
+  "keywords": ["laravel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sammaye",
+      "homepage": "https://sammaye.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "~5.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "sammaye\\MonologSwiftMailerHandler": "src"
+    }
+  },
+  "minimum-stability": "stable",
+  "extra": {
+  }
+}
