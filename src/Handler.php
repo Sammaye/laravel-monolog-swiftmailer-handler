@@ -24,6 +24,7 @@ class Handler
 
         $mailer = app('mailer')->getSwiftMailer();
         $message = $mailer->createMessage()
+            ->setSubject('Error')
             ->setFrom(
                 $config['from']['address'],
                 $config['from']['name']
